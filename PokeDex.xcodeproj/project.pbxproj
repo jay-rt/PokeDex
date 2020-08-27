@@ -15,6 +15,8 @@
 		4721217224F86EF200A5084A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4721217024F86EF200A5084A /* LaunchScreen.storyboard */; };
 		4721217D24F86EF200A5084A /* PokeDexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721217C24F86EF200A5084A /* PokeDexTests.swift */; };
 		4721218824F86EF300A5084A /* PokeDexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721218724F86EF300A5084A /* PokeDexUITests.swift */; };
+		4721219624F86F2700A5084A /* PokeFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721219524F86F2700A5084A /* PokeFetch.swift */; };
+		4721219824F86F9000A5084A /* EntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721219724F86F9000A5084A /* EntryPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4721218324F86EF200A5084A /* PokeDexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeDexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4721218724F86EF300A5084A /* PokeDexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeDexUITests.swift; sourceTree = "<group>"; };
 		4721218924F86EF300A5084A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4721219524F86F2700A5084A /* PokeFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeFetch.swift; sourceTree = "<group>"; };
+		4721219724F86F9000A5084A /* EntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				4721216524F86EEE00A5084A /* AppDelegate.swift */,
 				4721216724F86EEE00A5084A /* SceneDelegate.swift */,
 				4721216924F86EEE00A5084A /* ViewController.swift */,
+				4721219524F86F2700A5084A /* PokeFetch.swift */,
+				4721219724F86F9000A5084A /* EntryPoint.swift */,
 				4721216B24F86EEE00A5084A /* Main.storyboard */,
 				4721216E24F86EF200A5084A /* Assets.xcassets */,
 				4721217024F86EF200A5084A /* LaunchScreen.storyboard */,
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4721216A24F86EEE00A5084A /* ViewController.swift in Sources */,
+				4721219824F86F9000A5084A /* EntryPoint.swift in Sources */,
 				4721216624F86EEE00A5084A /* AppDelegate.swift in Sources */,
 				4721216824F86EEE00A5084A /* SceneDelegate.swift in Sources */,
+				4721219624F86F2700A5084A /* PokeFetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
